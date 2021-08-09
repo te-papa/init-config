@@ -1,0 +1,2 @@
+# EditorConfig
+ Sample Editor config
