@@ -3,10 +3,24 @@
 # top-most EditorConfig file
 root = true
 
+# Tab indentation
 [*]
 indent_style = space
+trim_trailing_whitespace = true
+insert_final_newline = true
+# (Please don't specify an indent_size here; that has too many unintended consequences.)
+
+
+# JSON files
+[*.json]
+indent_size = 2
+
+# JS files
+[*.js]
 indent_size = 4
-end_of_line = lf
-charset = utf-8
-trim_trailing_whitespace = false
-insert_final_newline = false
+
+# The indent size used in the `package.json` file cannot be changed
+# https://github.com/npm/npm/pull/3180#issuecomment-16336516
+[{*.yml,*.yaml,package.json}]
+indent_style = space
+indent_size = 2
