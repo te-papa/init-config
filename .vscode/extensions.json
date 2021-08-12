@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "streetsidesoftware.code-spell-checker",
+    "ms-vscode-remote.remote-containers",
+    "redhat.vscode-yaml",
+    "ms-azuretools.vscode-docker",
+    "shd101wyy.markdown-preview-enhanced",
+    "sonarsource.sonarlint-vscode"
+  ]
+}
