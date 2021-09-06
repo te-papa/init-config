@@ -1,0 +1,19 @@
+{
+  "defaultTarget": {
+    "development": {
+      "analytics": {
+        "id": "UA-107119542-8"
+      }
+    },
+    "staging": {
+      "analytics": {
+        "id": "UA-107119542-8"
+      }
+    },
+    "production": {
+      "analytics": {
+        "id": ""
+      }
+    }
+  }
+}
